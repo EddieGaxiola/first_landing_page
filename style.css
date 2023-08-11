@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    flex: 1 1 100vh;
+    margin: 0px;
 }
 
 .section.two, .section.four {
@@ -10,12 +12,28 @@ body {
 
 .section.one {
     display: flex;
+    flex-direction: column;
     background-color: navy;
+    color: white;
 }
 
 .header {
     display: flex;
     background-color: inherit;
+    color: inherit;
+    justify-content: space-around;
+}
+
+.header h1 {
+    display: flex;
+    align-items:flex-start;
+    margin: 0px;
+    font-size: medium;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
 }
 .section.three {
     display: flex;
