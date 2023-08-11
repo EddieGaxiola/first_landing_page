@@ -2,12 +2,11 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1 1 100vh;
-    max-width: 2500px;
     margin: 0px;
 }
 
 .section {
-    height: 450px;
+    height: 250px;
 }
 
 .section.two, .section.four {
@@ -18,7 +17,7 @@ body {
 .section.one {
     display: flex;
     flex-direction: column;
-    background-color: #1f2937;
+    background-color: #2f4056;
     color: white;
 }
 
@@ -56,7 +55,7 @@ body {
 
 footer {
     display: flex;
-    background-color: #1f2937;
+    background-color: #2f4056;
     height: 75px;
     color: #f9faf8;
     justify-content: center;
