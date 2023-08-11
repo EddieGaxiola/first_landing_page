@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.section.two, .section.four {
+    display: flex;
+    background-color: white;
+}
+
+.section.one {
+    display: flex;
+    background-color: navy;
+}
+
+.header {
+    display: flex;
+    background-color: inherit;
+}
+.section.three {
+    display: flex;
+    background-color: gray;
+}
