@@ -6,12 +6,7 @@ body {
 }
 
 .section {
-    height: 250px;
-}
-
-.section.two, .section.four {
-    display: flex;
-    background-color: white;
+    min-height: 270px;
 }
 
 .section.one {
@@ -48,6 +43,42 @@ body {
     text-decoration: none;
     font-size: 18px;
 }
+
+.section.one .awesome {
+    display: flex;
+    padding: 60px 0px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+}
+
+.awesome .left {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+
+.left h2 {
+    font-size: 48px;
+    margin-top: 20px;
+    padding-bottom: 0px;
+}
+
+.left p {
+    font-size: 18px;
+    padding-top: 0px;
+}
+
+.awesome .right {
+    width: 550px;
+    height: 300px;
+    background-color: gray;
+}
+.section.two, .section.four {
+    display: flex;
+    background-color: white;
+}
+
 .section.three {
     display: flex;
     background-color: gray;
