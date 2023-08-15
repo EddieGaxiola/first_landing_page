@@ -6,7 +6,7 @@ body {
 }
 
 .section {
-    min-height: 490px;
+    height: 560px;
     padding-left: 290px;
     padding-right: 290px;
 }
@@ -92,13 +92,14 @@ body {
     border-radius: 6px;
 }
 
-.awesome .right {
+.awesome .right img {
     width: 550px;
-    height: 300px;
+    height: auto;
     background-color: gray;
 }
 .section.two, .section.four {
     display: flex;
+    justify-content: center;
     background-color: white;
 }
 
@@ -109,6 +110,7 @@ body {
 
 .two h3 {
     font-size: 36px;
+    margin-bottom: 80px;
 }
 
 .two .food-images {
@@ -123,15 +125,15 @@ body {
 text-align: center;
 }
 
-.img-and-text .image {
-    display: flex;
-    flex-direction: column;
-    width: 140px;
-    height: 140px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #3882f6;
-    border-radius: 12px;
+.image img {
+display: flex;
+flex-direction: column;
+width: 180px;
+height: 180px;
+border-style: solid;
+border-width: 5px;
+border-color: #3882f6;
+border-radius: 12px;
 }
 
 .section.three {
