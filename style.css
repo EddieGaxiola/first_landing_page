@@ -114,9 +114,18 @@ body {
 .two .food-images {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    max-width: 140px;
+    gap: 60px;
+}
+
+.single-img p {
+text-align: center;
 }
 
 .img-and-text .image {
+    display: flex;
+    flex-direction: column;
     width: 140px;
     height: 140px;
     border-style: solid;
