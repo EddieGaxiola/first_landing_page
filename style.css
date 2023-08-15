@@ -6,9 +6,9 @@ body {
 }
 
 .section {
-    min-height: 270px;
-    padding-left: 220px;
-    padding-right: 220px;
+    min-height: 490px;
+    padding-left: 290px;
+    padding-right: 290px;
 }
 
 .section.one {
